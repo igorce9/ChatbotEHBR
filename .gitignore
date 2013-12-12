@@ -348,7 +348,7 @@
   })();
 
   pupOnline = function() {
-    return API.sendChat("/me: ChatBot ON Corre Negada!");
+    return API.sendChat("/me: ChatBot :white_check_mark: Corre Negada!");
   };
 
   populateUserData = function() {
