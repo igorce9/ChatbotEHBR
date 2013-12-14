@@ -682,7 +682,7 @@
     }
 
     whyWootCommand.prototype.init = function() {
-      this.command = '!brutos';
+      this.command = '!igorce9';
       this.parseType = 'startsWith';
       return this.rankPrivelege = 'featured';
     };
@@ -746,7 +746,7 @@
       return this.rankPrivelege = 'featured';
     };
 
-    !rules Command.prototype.functionality = function() {
+    rulesCommand.prototype.functionality = function() {
       var msg1, msg2;
        msg1 = "1) Tempo máximo 6 min e 30 seg. ";
       msg1 += "2) Não escrever em /me ou /em.  ";
