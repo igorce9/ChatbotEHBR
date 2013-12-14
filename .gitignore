@@ -64,7 +64,7 @@
       {
         interval: 7,
         offset: 0,
-        msg: "/em: Mantenha-se sempre votando, se não será removido da lista de espera e da cabine de DJ."
+        msg: "/em: Mantenha-se sempre votando."
       },{
         interval: 5,
         offset: 0,
@@ -746,7 +746,7 @@
       return this.rankPrivelege = 'featured';
     };
 
-    rulesCommand.prototype.functionality = function() {
+    !rules Command.prototype.functionality = function() {
       var msg1, msg2;
        msg1 = "1) Tempo máximo 6 min e 30 seg. ";
       msg1 += "2) Não escrever em /me ou /em.  ";
